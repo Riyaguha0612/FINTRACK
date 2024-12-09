@@ -1,0 +1,107 @@
+.signup-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BEBEBE;
+    font-family: Arial, sans-serif;
+}
+
+.signup-container p {
+    font-size: 24px;
+    margin: 5px;
+}
+
+.signup-interior {
+    width: 60vw;
+    height: 75vh; /* Increased height for the form */
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-content {
+    width: 50%;
+    background-color: #410200;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.register-content {
+    text-align: center;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 3% 5%;  /* Reduced padding to save space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-content h1 {
+    margin: 2px; /* Reduced margin for heading */
+    font-size: 30px; /* Reduced font size for heading */
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.register-content input {
+    width: 80%;
+    padding: 8px; /* Reduced padding to reduce space between fields */
+    padding-left: 10px;
+    font-size: 14px; /* Reduced font size */
+    margin-bottom: 8px; /* Further reduced margin between fields */
+    border-radius: 5px;
+    background-color: #D3D3D3;
+    border: none;
+}
+
+.register-content button {
+    width: 70%; /* Reduced width of SIGN UP button */
+    height: 50rem; /* Increased height of the button */
+    background-color: #410200;
+    font-family: sans-serif;
+    font-size: 14px; /* Adjusted button font size */
+    color: white;
+    border: none;
+    border-radius: 35px;
+    margin-top: 12px; /* Reduced margin above button */
+}
+
+.login-content {
+    box-sizing: border-box;
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+
+.login-content h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.login-content p {
+    padding: 20px 15px;
+}
+
+.login-content button {
+    width: 80%;
+    height: 2.5rem; /* Adjusted button height */
+    background-color: #410200;
+    font-family: sans-serif;
+    font-size: 14px; /* Reduced button font size */
+    color: white;
+    border: 2px white solid;
+    border-radius: 35px;
+}
+
+.register-content .result {
+    font-size: medium;
+    color: red;
+    padding: 10px;
+    margin: 5px;
+}
